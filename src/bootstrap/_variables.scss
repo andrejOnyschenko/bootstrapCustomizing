@@ -1,2 +1,14 @@
 $enable-flex: true;
 $primary: red;
+
+$body-bg: rgb(255, 236, 184);
+
+.lead {
+    background-color: rgb(252, 242, 220);
+    border: 1px #222 solid;
+    width: 1200px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+@import "~bootstrap";
